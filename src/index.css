@@ -1,0 +1,70 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #000; /* siyah ana arka plan */
+  color: #fff;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Başlıklar */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #ff6600; /* turuncu başlıklar */
+  margin-bottom: 12px;
+}
+
+/* Linkler */
+a {
+  color: #ff6600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #e65c00;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6600;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e65c00;
+}
+
+/* Container genel düzen */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button Reset */
+button {
+  font-family: inherit;
+}
+
+/* Animasyon için yumuşak geçiş */
+* {
+  transition: all 0.2s ease-in-out;
+}
