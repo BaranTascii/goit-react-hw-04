@@ -1,9 +1,28 @@
 .gallery {
-  margin-top: 90px; /* SearchBar sabit olduğu için boşluk bırak */
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 16px;
   padding: 20px;
-  background: #111;
-  min-height: 100vh;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.imageItem {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: none;
 }
